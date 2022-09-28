@@ -1,8 +1,8 @@
-# Lazyxss
+## Lazyxss
 
 LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-# Setup
+## Setup
 
 sudo chmod u+x setup.sh
 ./setup.sh
@@ -19,5 +19,3 @@ then close the terminal and open it again
 
 Now You can just type (lazyxss) in your terminal and hit Enter 
 Type (lazyxss -h) to display the options of the tool and some Examples for how to use it
-
-# ENJOY!
