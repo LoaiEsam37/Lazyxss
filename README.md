@@ -1,4 +1,4 @@
-# Lazyxss
+### Lazyxss
 
 sudo chmod u+x setup.sh
 ./setup.sh
