@@ -17,11 +17,7 @@ and another option you can use,
 add this line to Your .Bashrc ### (alias lazyxss='python3 Foo/bar/Lazyxss/main.py') 
 then close the terminal and open it again
 
-### Now You can just type (lazyxss) in your terminal and hit Enter 
+#### Now You can just type (lazyxss) in your terminal and hit Enter 
+#### Type (lazyxss -h) to display the options of the tool and some Examples for how to use it
 
-# CMD
-
-
-
-
-## ENJOY!
+# ENJOY!
