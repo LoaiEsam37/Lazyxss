@@ -4,15 +4,25 @@
 
 # Installation
 
-``git clone https://github.com/LoaiEsam37/Lazyxss``
+```bash
+git clone https://github.com/LoaiEsam37/Lazyxss
+```
 
-``cd Lazyxss``
+```bash
+cd Lazyxss
+```
 
-``sudo chmod u+x setup.sh``
+```
+$ sudo chmod u+x setup.sh
+```
 
-``./setup.sh``
+```
+./setup.sh
+```
 
-``./main.py``
+```
+./main.py
+```
 
 if you have a problem with running **./main.py**
 try to change the first line in it from **#!/bin/bash/python3**
