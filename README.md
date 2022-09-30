@@ -47,12 +47,12 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ```   
 ![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
-1. WayBackUrls
+1. **WayBackUrls**
 
       ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
       
       * Here we can choose the method we will use,
-      * Let\`s try manually first
+      * Let\`s try manually Option first
       
       ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
       
@@ -60,24 +60,28 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
        
       ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
       
-      * Ok, Now Let\`s try file
+      * Ok, Now Let\`s try file Option
 
+      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140535.png)
+      
+      * We made a file that contains 3 targets let\`s scan them
 
+      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
+     
+     
+**2. SedFilter**
 
-2. SedFilter
+**3. WayBackUrls&SedFilter**
 
-3. WayBackUrls&SedFilter
+**4. UniqOnly**
 
-4. UniqOnly
+**5. URL Reflected XSS**
 
-5. URL Reflected XSS
+**6. Inputs Reflected XSS**
 
-6. Inputs Reflected XSS
+**7. ByPassTester**
 
-7. ByPassTester
-
-8. LFI
-
+**8. LFI**
 
 ## Connect Me
 
