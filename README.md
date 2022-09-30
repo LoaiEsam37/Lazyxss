@@ -1,8 +1,8 @@
 # Lazyxss
-[hi](#uu)
+[hi](#c)
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-# Setup (#uu)
+# Setup {#a}
 
 1. **sudo chmod u+x setup.sh**
 
