@@ -26,8 +26,8 @@ add this line ***alias lazyxss='python3 Foo/bar/Lazyxss/main.py'***
 
 then close the terminal and open it again
 
-Now You can just type (``lazyxss``) in your terminal and hit Enter 
-Type (``lazyxss -h``) to display the options of the tool and some Examples for how to use it.
+Now You can just type ``lazyxss`` in your terminal and hit Enter 
+Type ``lazyxss -h`` to display the options of the tool and some Examples for how to use it.
 
 # Usage
 
