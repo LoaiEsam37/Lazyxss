@@ -32,7 +32,7 @@ Type ``lazyxss -h`` to display the options of the tool and some Examples for how
 # Usage
 
 1. WayBackUrls
-![]()  
+![w](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140026.png)  
 
 2. SedFilter
 
