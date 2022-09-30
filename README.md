@@ -135,12 +135,21 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
    
 ## ByPassTester
+   
    * This tool if for using payloads on just the Url parameters
   
-    ```python
-     PAYLOAD = ["\'\'\'\'\'\'", "\"\"\"\"\"\"", "((((((", "))))))", "&&&&&&", ">>>>>>", "<<<<<<", "\\\\\\\\\\\\"]
-    ```
+   ```python
+   PAYLOAD = ["\'\'\'\'\'\'", "\"\"\"\"\"\"", "((((((", "))))))", "&&&&&&", ">>>>>>", "<<<<<<", "\\\\\\\\\\\\"]
+   ```
+   
    * The idea here is to try every bypass char on the website
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+   
    
 ## LFI
 
