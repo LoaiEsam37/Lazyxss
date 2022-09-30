@@ -27,7 +27,7 @@ Type (**lazyxss -h**) to display the options of the tool and some Examples for h
 # usage
 
 1. WayBackUrls
-![](https://onedrive.live.com/?cid=659B6A3BA2788F6D&id=659B6A3BA2788F6D%212087&parId=659B6A3BA2788F6D%212079&o=OneUp)  
+![](https://1drv.ms/u/s!Am2PeKI7aptlkCe-QsGd9h-MplRx?e=6MlwIj)  
 
 2. SedFilter
 
