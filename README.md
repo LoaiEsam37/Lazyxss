@@ -153,6 +153,12 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
 ## LFI
 
+   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+
 ## Connect Me
 
 <a href="https://linkedin.com/in/loai-esam-109971215" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="loai-esam-109971215" height="30" width="40" /></a>
