@@ -22,20 +22,31 @@ It depends on what version you have on your pc.
     $ cd
     $ nano .bashrc
 
-add this line ***alias lazyxss='python3 Foo/bar/Lazyxss/main.py'*** 
+* add this line ***alias lazyxss='python3 Foo/bar/Lazyxss/main.py'*** 
 
-then close the terminal and open it again
+* close the terminal and open it again
 
-Now You can just type ``lazyxss`` in your terminal and hit Enter 
-Type ``lazyxss -h`` to display the options of the tool and some Examples for how to use it.
+* Type ``lazyxss -h`` to display the options of the tool and some Examples for how to use it.
+
+![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140729.png)
 
 # Usage
 
-![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140026.png)
+* There are two ways you can use the tool with 
+* you can use Easy Selection that is look like this:
+        
+      $ lazyxss
 
+![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142553.png)
+
+* or you can use it with specific Options that is look like this:
+
+      $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
+      
+![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
 1. WayBackUrls
-  
+
       ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
       
       * Here we can choose the method we will use,
@@ -44,6 +55,10 @@ Type ``lazyxss -h`` to display the options of the tool and some Examples for how
       ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
       
       * as you could see we put the Url we want to get waybackurl from, then we put the output file
+       
+      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
+      
+      * Ok, Now Let\`s try file
 
 
 
