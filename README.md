@@ -35,14 +35,16 @@ It depends on what version you have on your pc.
 * There are two ways you can use the tool with 
 * you can use Easy Selection that is look like this:
         
-      $ lazyxss
+```
+$ lazyxss
+```
 
 ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142553.png)
 
 * or you can use it with specific Options that is look like this:
-
-      $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
-      
+```
+$ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
+```   
 ![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
 1. WayBackUrls
