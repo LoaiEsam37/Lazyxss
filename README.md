@@ -45,5 +45,4 @@ Type (**lazyxss -h**) to display the options of the tool and some Examples for h
 
 ## Social Media
 
-[**Linkedin**](https://www.linkedin.com/in/loai-esam-109971215/)
-[**Facebook**](https://www.facebook.com/loai.esam.16/)
+[**Linkedin**](https://www.linkedin.com/in/loai-esam-109971215/)                         [**Facebook**](https://www.facebook.com/loai.esam.16/)
