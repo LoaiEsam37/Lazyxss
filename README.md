@@ -48,28 +48,38 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
 1. **WayBackUrls**
+        * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
+        
+```python
+        
+def Command(URL, OUTPUT)   
+    # WayBackUrls
+    os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
+                
+```
 
-      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
       
-      * Here we can choose the method we will use,
-      * Let\`s try manually Option first
+   * Here we can choose the method we will use,
+   * Let\`s try manually Option first
       
-      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
       
-      * as you could see we put the Url we want to get waybackurl from, then we put the output file
+   * as you could see we put the Url we want to get waybackurl from, then we put the output file
        
-      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
       
-      * Ok, Now Let\`s try file Option
+   * Ok, Now Let\`s try file Option
 
-      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140535.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140535.png)
       
-      * We made a file that contains 3 targets let\`s scan them
+   * We made a file that contains 3 targets let\`s scan them
 
-      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
      
      
 **2. SedFilter**
+    
 
 **3. WayBackUrls&SedFilter**
 
