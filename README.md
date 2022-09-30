@@ -77,20 +77,34 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
      
      
-**2. SedFilter**
-    
+2. **SedFilter**
 
-**3. WayBackUrls&SedFilter**
+   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
+   * Ok, Now we need to prepair the urls to be ready to add Payloads in it 
+   * (https://www.google.com/#q=**Ten+Amoretterobots.txt**) as we can see here 
+   * we need to remove the **Ten+Amoretterobots.txt** part of the url like this:
 
-**4. UniqOnly**
+   ```python
+   os.system(f"cat {INPUT} |grep -v 'jpg\|jpeg\|png\|svg' |sed 's/=.*/=/g' |uniq > {OUTPUT}")
+   ```
 
-**5. URL Reflected XSS**
+   * Ok let\`s see how to do this with the tool
 
-**6. Inputs Reflected XSS**
+   ![](https://github.com/LoaiEsam37/Images/blob/main/1.png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/3.png)
+   
+3. **WayBackUrls&SedFilter**
 
-**7. ByPassTester**
+4. **UniqOnly**
 
-**8. LFI**
+5. **URL Reflected XSS**
+
+6. **Inputs Reflected XSS**
+
+7. **ByPassTester**
+
+8. **LFI**
 
 ## Connect Me
 
