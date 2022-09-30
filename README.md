@@ -27,6 +27,7 @@ Type (**lazyxss -h**) to display the options of the tool and some Examples for h
 # usage
 
 1. WayBackUrls
+![](https://onedrive.live.com/?cid=659B6A3BA2788F6D&id=659B6A3BA2788F6D%212087&parId=659B6A3BA2788F6D%212079&o=OneUp)  
 
 2. SedFilter
 
@@ -45,4 +46,5 @@ Type (**lazyxss -h**) to display the options of the tool and some Examples for h
 
 ## Social Media
 
-[**Linkedin**](https://www.linkedin.com/in/loai-esam-109971215/)                         [**Facebook**](https://www.facebook.com/loai.esam.16/)
+[**Linkedin**](https://www.linkedin.com/in/loai-esam-109971215/)                         
+[**Facebook**](https://www.facebook.com/loai.esam.16/)
