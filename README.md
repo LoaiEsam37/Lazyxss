@@ -31,8 +31,21 @@ Type ``lazyxss -h`` to display the options of the tool and some Examples for how
 
 # Usage
 
+![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140026.png)
+
+
 1. WayBackUrls
-![w](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140026.png)  
+  
+      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
+      
+      * Here we can choose the method we will use,
+      * Let\`s try manually first
+      
+      ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
+      
+      * as you could see we put the Url we want to get waybackurl from, then we put the output file
+
+
 
 2. SedFilter
 
