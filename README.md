@@ -49,7 +49,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 
 ## WayBackUrls
 
-   * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
+   * Make sure to Download [Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
         
    ```python
    def Command(URL, OUTPUT)   
@@ -96,9 +96,15 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
 ## WayBackUrls&SedFilter
    * To understand this section checkout [WayBackUrls](#WayBackUrls), [SedFilter](#SedFilter)
+ 
 ## UniqOnly
-
+    ![](https://github.com/LoaiEsam37/Images/blob/main/5.png)
+    * here we have duplicate url
+    * Ok let\`s see how to do this with the tool
+    ![](https://github.com/LoaiEsam37/Images/blob/main/10.png)
+    
 ## URL Reflected XSS
+
 
 ## Inputs Reflected XSS
 
