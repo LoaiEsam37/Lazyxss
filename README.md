@@ -12,15 +12,15 @@ git clone https://github.com/LoaiEsam37/Lazyxss
 cd Lazyxss
 ```
 
-```
-$ sudo chmod u+x setup.sh
+```bash
+sudo chmod u+x setup.sh
 ```
 
-```
+```bash
 ./setup.sh
 ```
 
-```
+```bash
 ./main.py
 ```
 
