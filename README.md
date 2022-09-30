@@ -2,6 +2,9 @@
 
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
+[Installation](#Installation)
+[Usage](#Usage)
+
 # Installation
 
 ```bash
@@ -44,7 +47,7 @@ then close the terminal and open it again
 Now You can just type (**lazyxss**) in your terminal and hit Enter 
 Type (**lazyxss -h**) to display the options of the tool and some Examples for how to use it.
 
-# usage
+# Usage
 
 1. WayBackUrls
 ![](https://1drv.ms/u/s!Am2PeKI7aptlkCe-QsGd9h-MplRx?e=6MlwIj)  
