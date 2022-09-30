@@ -5,52 +5,34 @@
 * [Installation](#Installation)
 * [Usage](#Usage)
 
+
 # Installation
 
-```bash
-git clone https://github.com/LoaiEsam37/Lazyxss
-```
-
-```bash
-cd Lazyxss
-```
-
-```bash
-sudo chmod u+x setup.sh
-```
-
-```bash
-./setup.sh
-```
-
-```bash
-./main.py
-```
+    $ git clone https://github.com/LoaiEsam37/Lazyxss
+    $ cd Lazyxss
+    $ sudo chmod u+x setup.sh
+    $ ./setup.sh
+    $ ./main.py
 
 if you have a problem with running **./main.py**
 try to change the first line in **main.py** from **~~#!/bin/bash/python3~~**
 to **#!/bin/bash/python3.10**
 It depends on what version you have on your pc.
 
-```bash
-cd
-```
-
-```bash
-nano .bashrc
-```
+    $ cd
+    $ nano .bashrc
 
 add this line ***alias lazyxss='python3 Foo/bar/Lazyxss/main.py'*** 
 
 then close the terminal and open it again
 
-Now You can just type (**lazyxss**) in your terminal and hit Enter 
-Type (**lazyxss -h**) to display the options of the tool and some Examples for how to use it.
+Now You can just type (``lazyxss``) in your terminal and hit Enter 
+Type (``lazyxss -h``) to display the options of the tool and some Examples for how to use it.
 
 # Usage
 
 1. WayBackUrls
-![](https://1drv.ms/u/s!Am2PeKI7aptlkCe-QsGd9h-MplRx?e=6MlwIj)  
+![]()  
 
 2. SedFilter
 
@@ -67,7 +49,7 @@ Type (**lazyxss -h**) to display the options of the tool and some Examples for h
 8. LFI
 
 
-## Social Media
+## Connect Me
 
 <a href="https://linkedin.com/in/loai-esam-109971215" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="loai-esam-109971215" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/loaiesam27" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="loaiesam27" height="30" width="40" /></a>
