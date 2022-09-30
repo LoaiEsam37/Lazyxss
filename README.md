@@ -4,8 +4,6 @@ LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effo
 
 ## Setup
 
-1. First:
-
 1. sudo chmod u+x setup.sh
 
 2. ./setup.sh
@@ -23,3 +21,4 @@ then close the terminal and open it again
 
 Now You can just type (lazyxss) in your terminal and hit Enter 
 Type (lazyxss -h) to display the options of the tool and some Examples for how to use it
+[Facebook](https://www.facebook.com/loai.esam.16/)
