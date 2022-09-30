@@ -48,15 +48,14 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
 1. **WayBackUrls**
-        * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
+
+    * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
         
-```python
-        
-def Command(URL, OUTPUT)   
-    # WayBackUrls
-    os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
-                
-```
+    ```python
+    def Command(URL, OUTPUT)   
+        # WayBackUrls
+        os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
+    ```
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
       
