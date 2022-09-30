@@ -98,10 +98,13 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    * To understand this section checkout [WayBackUrls](#WayBackUrls), [SedFilter](#SedFilter)
  
 ## UniqOnly
-    ![](https://github.com/LoaiEsam37/Images/blob/main/5.png)
-    * here we have duplicate url
-    * Ok let\`s see how to do this with the tool
-    ![](https://github.com/LoaiEsam37/Images/blob/main/10.png)
+
+   ![](https://github.com/LoaiEsam37/Images/blob/main/5.png)
+   
+   * here we have duplicate url
+   * Ok let\`s see how to do this with the tool
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/10.png)
     
 ## URL Reflected XSS
 
