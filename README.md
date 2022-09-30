@@ -47,15 +47,15 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ```   
 ![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
 
-1. **WayBackUrls**
+## WayBackUrls
 
-    * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
+   * Make sure to [Download Waybackurls](https://github.com/tomnomnom/waybackurls) and put it in ``/usr/bin`` because this section of my tool depends on it.
         
-    ```python
-    def Command(URL, OUTPUT)   
-        # WayBackUrls
-        os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
-    ```
+   ```python
+   def Command(URL, OUTPUT)   
+       # WayBackUrls
+       os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
+   ```
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
       
@@ -77,11 +77,11 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
      
      
-2. **SedFilter**
+## SedFilter
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
    * Ok, Now we need to prepair the urls to be ready to add Payloads in it 
-   * (https://www.google.com/#q=**Ten+Amoretterobots.txt**) as we can see here 
+   * **https://www.google.com/#q=Ten+Amoretterobots.txt** as we can see here 
    * we need to remove the **Ten+Amoretterobots.txt** part of the url like this:
 
    ```python
@@ -94,17 +94,17 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/3.png)
    
-3. **WayBackUrls&SedFilter**
+## WayBackUrls&SedFilter
+   * To understand this section checkout [WayBackUrls](#WayBackUrls), [SedFilter](#SedFilter)
+## UniqOnly
 
-4. **UniqOnly**
+## URL Reflected XSS
 
-5. **URL Reflected XSS**
+## Inputs Reflected XSS
 
-6. **Inputs Reflected XSS**
+## ByPassTester
 
-7. **ByPassTester**
-
-8. **LFI**
+## LFI
 
 ## Connect Me
 
