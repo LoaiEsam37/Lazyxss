@@ -2,13 +2,17 @@
 
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-# Setup
+# Installation
 
-1. **sudo chmod u+x setup.sh**
+``git clone https://github.com/LoaiEsam37/Lazyxss``
 
-2. **./setup.sh**
+``cd Lazyxss``
 
-3. **./main.py**
+``sudo chmod u+x setup.sh``
+
+``./setup.sh``
+
+``./main.py``
 
 if you have a problem with running **./main.py**
 try to change the first line in it from **#!/bin/bash/python3**
