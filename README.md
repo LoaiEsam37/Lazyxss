@@ -14,6 +14,7 @@
     $ git clone https://github.com/LoaiEsam37/Lazyxss
     $ cd Lazyxss
     $ sudo chmod u+x setup.sh
+    $ sudo chmod u+x main.py
     $ ./setup.sh
     $ ./main.py
 
