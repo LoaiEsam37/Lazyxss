@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/apache/superset/workflows/Python/badge.svg)](https://github.com/tomnomnom/waybackurls)
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-[Installation](#Installation)|[Usage](#Usage)
+[Installation](#Installation) | [Usage](#Usage) | [waybackurls](#WayBackUrls)
 
 
 # Installation
