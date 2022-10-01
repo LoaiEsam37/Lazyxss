@@ -1,5 +1,9 @@
 # Lazyxss
 
+[![PyPI](https://img.shields.io/pypi/pyversions/apache-superset.svg?maxAge=2592000)](https://pypi.python.org/pypi/apache-superset)
+[![PyPI version](https://badge.fury.io/py/pandas.svg)](https://badge.fury.io/py/pandas)
+[![PyPI version](https://badge.fury.io/py/matplot.svg)](https://badge.fury.io/py/matplot)
+[![Build Status](https://github.com/apache/superset/workflows/Python/badge.svg)](https://github.com/tomnomnom/waybackurls)
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
 * [Installation](#Installation)
