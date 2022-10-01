@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/apache/superset/workflows/Python/badge.svg)](https://github.com/tomnomnom/waybackurls)
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-[Installation](#Installation) | [Usage](#Usage) | [waybackurls](#WayBackUrls) | [SedFilter](#SedFilter) |  [WayBackUrls&SedFilter](#WayBackUrls&SedFilter) | [UniqOnly](#UniqOnly) | [URL-Reflected-XSS](#URL-Reflected-XSS) | [Inputs-Reflected-XSS](#Inputs-Reflected-XSS) | [ByPassTester](#ByPassTester) | [LFI](#LFI)
+[Installation](#Installation) | [Usage](#Usage) | [waybackurls](#WayBackUrls) | [SedFilter](#SedFilter) |  [WayBackUrls_SedFilter](#WayBackUrls_SedFilter) | [UniqOnly](#UniqOnly) | [URL-Reflected-XSS](#URL-Reflected-XSS) | [Inputs-Reflected-XSS](#Inputs-Reflected-XSS) | [ByPassTester](#ByPassTester) | [LFI](#LFI)
 
 
 # Installation
@@ -97,7 +97,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/3.png)
    
-## WayBackUrls&SedFilter
+## WayBackUrls_SedFilter
    * To understand this section checkout [WayBackUrls](#WayBackUrls), [SedFilter](#SedFilter)
  
 ## UniqOnly
@@ -111,7 +111,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
     
 ## URL-Reflected-XSS
   
-  * This tool if for using your payloads on just the Url parameters
+  * This tool is for using your payloads on just the Url parameters
   
    ![](https://github.com/LoaiEsam37/Images/blob/main/11.png)
    
@@ -139,7 +139,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
 ## ByPassTester
    
-   * This tool if for using payloads on just the Url parameters
+   * This tool is for using payloads on just the Url parameters
   
    ```python
    PAYLOAD = ["\'\'\'\'\'\'", "\"\"\"\"\"\"", "((((((", "))))))", "&&&&&&", ">>>>>>", "<<<<<<", "\\\\\\\\\\\\"]
