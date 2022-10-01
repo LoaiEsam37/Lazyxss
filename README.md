@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/apache/superset/workflows/Python/badge.svg)](https://github.com/tomnomnom/waybackurls)
 ### LazyXSS is a tool that can help you scan for reflected XSS, LFI without any effort.
 
-[Installation](#Installation) | [Usage](#Usage) | [waybackurls](#WayBackUrls) | [SedFilter](#SedFilter) |  [WayBackUrls&SedFilter](#WayBackUrls&SedFilter) | [UniqOnly](#UniqOnly) | [URL Reflected XSS](#URL) | [Inputs Reflected XSS](#Inputs) | [ByPassTester](#ByPassTester)
+[Installation](#Installation) | [Usage](#Usage) | [waybackurls](#WayBackUrls) | [SedFilter](#SedFilter) |  [WayBackUrls&SedFilter](#WayBackUrls&SedFilter) | [UniqOnly](#UniqOnly) | [URL-Reflected-XSS](#URL-Reflected-XSS) | [Inputs-Reflected-XSS](#Inputs-Reflected-XSS) | [ByPassTester](#ByPassTester) | [LFI](#LFI)
 
 
 # Installation
@@ -109,7 +109,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/10.png)
     
-## URL Reflected XSS
+## URL-Reflected-XSS
   
   * This tool if for using your payloads on just the Url parameters
   
@@ -123,7 +123,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
 
-## Inputs Reflected XSS
+## Inputs-Reflected-XSS
    
    * This tool is for using your payloads on every input on the website
    
