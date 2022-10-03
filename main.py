@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3
 import time
 import multiprocessing
 from multiprocessing import Process
