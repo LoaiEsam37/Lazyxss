@@ -73,13 +73,14 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
        
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(5).png)
       
+     
    * Now Let\`s try file Option
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(4).png)
-      
-   * We made a file that contains 3 targets let\`s scan them
+   * We made a file that contains 3 targets let\`s use waybackurls
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(6).png)
+   
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(7).png)
      
      
 ## SedFilter
