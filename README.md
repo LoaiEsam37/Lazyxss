@@ -33,7 +33,7 @@ It depends on what version you have on your pc.
 
 * Type ``lazyxss -h`` to display the options of the tool and some Examples for how to use it.
 
-![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140729.png)
+![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(1).png)
 
 # Usage
 
@@ -44,13 +44,13 @@ It depends on what version you have on your pc.
 $ lazyxss
 ```
 
-![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142553.png)
+![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(2).png)
 
 * or you can use it with specific Options that is look like this:
 ```
 $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ```   
-![](https://github.com/LoaiEsam37/Images/blob/main/9.png)
+![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(17).png)
 
 ## WayBackUrls
 
@@ -62,29 +62,29 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
        os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
    ```
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140235.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(2).png)
       
    * Here we can choose the method we will use,
    * Let\`s try manually Option first
       
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140326.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(3).png)
       
    * as you could see we put the Url we want to get waybackurl from, then we put the output file
        
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(4).png)
       
    * Ok, Now Let\`s try file Option
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140535.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(5).png)
       
    * We made a file that contains 3 targets let\`s scan them
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20140637.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(6).png)
      
      
 ## SedFilter
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/Screenshot%202022-09-30%20142401.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(7).png)
    * Ok, Now we need to prepair the urls to be ready to add Payloads in it 
    * **https://www.google.com/#q=Ten+Amoretterobots.txt** as we can see here 
    * we need to remove the **Ten+Amoretterobots.txt** part of the url like this:
@@ -95,49 +95,49 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 
    * Ok let\`s see how to do this with the tool
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/1.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(8).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/3.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(9).png)
    
 ## WayBackUrls_SedFilter
    * To understand this section checkout [WayBackUrls](#WayBackUrls), [SedFilter](#SedFilter)
  
 ## UniqOnly
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/5.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(10).png)
    
    * here we have duplicate url
    * Ok let\`s see how to do this with the tool
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/10.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(11).png)
     
 ## URL-Reflected-XSS
   
   * This tool is for using your payloads on just the Url parameters
   
-   ![](https://github.com/LoaiEsam37/Images/blob/main/11.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(12).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/12.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(13).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(16).png)
 
 ## Inputs-Reflected-XSS
    
    * This tool is for using your payloads on every input on the website
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/11.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(12).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/12.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(13).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(16).png)
    
 ## ByPassTester
    
@@ -149,20 +149,20 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    * The idea here is to try every bypass char on the website
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(16).png)
    
    
 ## LFI
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/13.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/14.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/16.png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(16).png)
 
 ## Connect Me
 
