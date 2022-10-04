@@ -62,12 +62,12 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
        os.system(f"echo \{URL} | waybackurls >> {OUTPUT}")
    ```
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(2).png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(3).png)
       
    * Here we can choose the method we will use,
    * Let\`s try manually Option first
       
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(3).png)
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(4).png)
       
    * as you could see we put the Url we want to get waybackurl from, then we put the output file
        
@@ -84,7 +84,6 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
      
 ## SedFilter
 
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(7).png)
    * Now we need to prepair the urls to be ready to add Payloads in it 
    * **https://www.google.com/#q=Ten+Amoretterobots.txt** as we can see here 
    * we need to remove the **Ten+Amoretterobots.txt** part of the url like this:
@@ -104,9 +103,10 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
  
 ## UniqOnly
 
+   * here we have duplicate url
+   
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(10).png)
    
-   * here we have duplicate url
    * let\`s see how to do this with the tool
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(11).png)
