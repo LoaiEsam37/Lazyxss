@@ -71,11 +71,11 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
       
    * as you could see we put the Url we want to get waybackurl from, then we put the output file
        
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(4).png)
-      
-   * Ok, Now Let\`s try file Option
-
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(5).png)
+      
+   * Now Let\`s try file Option
+
+   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(4).png)
       
    * We made a file that contains 3 targets let\`s scan them
 
@@ -85,7 +85,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
 ## SedFilter
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(7).png)
-   * Ok, Now we need to prepair the urls to be ready to add Payloads in it 
+   * Now we need to prepair the urls to be ready to add Payloads in it 
    * **https://www.google.com/#q=Ten+Amoretterobots.txt** as we can see here 
    * we need to remove the **Ten+Amoretterobots.txt** part of the url like this:
 
@@ -93,7 +93,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    os.system(f"cat {INPUT} |grep -v 'jpg\|jpeg\|png\|svg' |sed 's/=.*/=/g' |uniq > {OUTPUT}")
    ```
 
-   * Ok let\`s see how to do this with the tool
+   * let\`s see how to do this with the tool
 
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(8).png)
    
@@ -107,7 +107,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(10).png)
    
    * here we have duplicate url
-   * Ok let\`s see how to do this with the tool
+   * let\`s see how to do this with the tool
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(11).png)
     
@@ -116,10 +116,6 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
   * This tool is for using your payloads on just the Url parameters
   
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(12).png)
-   
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(13).png)
-   
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
@@ -130,10 +126,6 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    * This tool is for using your payloads on every input on the website
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(12).png)
-   
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(13).png)
-   
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
@@ -149,16 +141,12 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    
    * The idea here is to try every bypass char on the website
    
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
-   
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(16).png)
    
    
 ## LFI
-
-   ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(14).png)
    
    ![](https://github.com/LoaiEsam37/Images/blob/main/lazyxss(15).png)
    
