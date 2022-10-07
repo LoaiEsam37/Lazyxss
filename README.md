@@ -137,7 +137,7 @@ $ lazyxss -t r-xss -f google -o vuln -d 1 -pf Payloads
    * This tool is for using payloads on just the Url parameters
   
    ```python
-   PAYLOAD = ["\'\'\'\'\'\'", "\"\"\"\"\"\"", "((((((", "))))))", "&&&&&&", ">>>>>>", "<<<<<<", "\\\\\\\\\\\\"]
+   PAYLOAD = ["\'\'\'\'\'\'", "\"\"\"\"\"\"", ">>>>>>", "<<<<<<", "\\\\\\\\\\\\"]
    ```
    
    * The idea here is to try every bypass char on the website
